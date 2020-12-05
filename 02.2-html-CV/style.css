@@ -1,0 +1,19 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background: linear-gradient(184deg, rgba(189,190,190,1) 0%, rgba(255,253,252,1) 100%);
+}
+
+h2{
+    text-decoration: underline;
+}
+
+#my-foto{
+    border-radius: 8px;
+}
+
+.heading-figure{
+    border-radius: 100%;
+}
