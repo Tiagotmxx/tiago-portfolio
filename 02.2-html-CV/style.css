@@ -3,17 +3,41 @@
 }
 
 body{
-    background: linear-gradient(184deg, rgba(189,190,190,1) 0%, rgba(255,253,252,1) 100%);
-}
+    background: linear-gradient(184deg, rgba(189,190,190,1) 0%, rgba(255,253,252,1) 100%) fixed;
+    padding: 16px;
+    /*border: 2px solid black;*/
+    border-radius: 5px;
+    margin: 8px;         
+}   
 
-h2{
+.underline{
     text-decoration: underline;
 }
 
+#foto-section{
+    width: 250px;
+}
 #my-foto{
     border-radius: 8px;
+    width: 200px;
 }
 
 .heading-figure{
     border-radius: 100%;
+}
+
+header{text-align: center;
+    background-color: cadetblue;
+    position: sticky;
+    top: 0;
+    border-radius: 5px;
+    
+}
+
+/*section{
+    font-size: 20px;
+}*/
+
+.flex-container{
+    display: flex;
 }
