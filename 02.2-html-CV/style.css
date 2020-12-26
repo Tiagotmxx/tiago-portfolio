@@ -1,5 +1,6 @@
 *{
     font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
 }
 
 body{
@@ -7,16 +8,19 @@ body{
     padding: 16px;
     /*border: 2px solid black;*/
     border-radius: 5px;
-    margin: 8px;         
+    margin: 0;         
 }   
 
 .underline{
     text-decoration: underline;
 }
-
-#foto-section{
-    width: 250px;
+.centered-header {text-align: center;
 }
+
+/* #foto-section{
+    width: 250px;
+} */
+
 #my-foto{
     border-radius: 8px;
     width: 200px;
@@ -30,8 +34,8 @@ header{text-align: center;
     background-color: cadetblue;
     position: sticky;
     top: 0;
-    border-radius: 5px;
-    
+    border-radius: 8px;
+    font-size: 120%;  
 }
 
 /*section{
@@ -40,4 +44,32 @@ header{text-align: center;
 
 .flex-container{
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-section {
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.vertical-text{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 100%;
+}
+
+.flex-container2 {
+    display: flex;
+    align-items: center;
+}
+
+ol {
+    line-height: 2.0;
+}
+
+@media only screen and (max-width: 600px){
+    .flex-container{
+        flex-direction: column;
+    }
 }
