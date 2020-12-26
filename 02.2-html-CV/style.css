@@ -17,9 +17,9 @@ body{
 .centered-header {text-align: center;
 }
 
-/* #foto-section{
+#foto-section{
     width: 250px;
-} */
+}
 
 #my-foto{
     border-radius: 8px;
@@ -72,4 +72,11 @@ ol {
     .flex-container{
         flex-direction: column;
     }
+    .flex-container2{
+        max-width: 20px;
+    }
+    #foto-section{
+        width: 200px;
+    }
+
 }
