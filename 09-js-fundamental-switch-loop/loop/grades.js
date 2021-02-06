@@ -59,3 +59,10 @@ while (true) {
 
 let average = totalSumOfGrades / totalNumberOfGrades;
 alert (average);
+
+
+let totalSumOfGrades
+let totalNumberOfGrades
+let userInput
+
+while (userInput !== null || userInput !== undefined)
