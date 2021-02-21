@@ -42,27 +42,27 @@ alert (average);
 
 
 
-let totalSumOfGrades = 0;
-let totalNumberOfGrades = 0;
-let userInput = 0;
-while (true) {
-    userInput = +prompt ("Insert a new grade or write No when you don't have any more grades to add");
-    if (userInput > 20) {
-        alert ('Insert a number between 1 and 20');
-        break;
-    } else if (!userInput) {
-        break;
-    }
-    totalSumOfGrades += userInput;
-    ++totalNumberOfGrades;   
-}
+// let totalSumOfGrades = 0;
+// let totalNumberOfGrades = 0;
+// let userInput = 0;
+// while (true) {
+//     userInput = +prompt ("Insert a new grade or write No when you don't have any more grades to add");
+//     if (userInput > 20) {
+//         alert ('Insert a number between 1 and 20');
+//         break;
+//     } else if (!userInput) {
+//         break;
+//     }
+//     totalSumOfGrades += userInput;
+//     ++totalNumberOfGrades;   
+// }
 
-let average = totalSumOfGrades / totalNumberOfGrades;
-alert (average);
+// let average = totalSumOfGrades / totalNumberOfGrades;
+// alert (average);
 
 
-let totalSumOfGrades
-let totalNumberOfGrades
-let userInput
+// let totalSumOfGrades
+// let totalNumberOfGrades
+// let userInput
 
-while (userInput !== null || userInput !== undefined)
+// while (userInput !== null || userInput !== undefined)

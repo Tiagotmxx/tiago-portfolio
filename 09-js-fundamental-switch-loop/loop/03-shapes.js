@@ -10,6 +10,27 @@
 //  * 2. how to repeat the process?
 //  */
 
+let rectangle = '';
+let rows = +prompt('Rows?');
+let columns = +prompt('Columns?');
+
+for (i = 0; i < rows; i++) {
+    let row = '';
+    for (j = 0; j < columns; j++) {
+        row += '*';
+    }
+    rectangle += row + '\n';
+}
+console.log(rectangle)
+
+
+
+
+
+
+
+
+// Antoni solution
 //  let rows = +prompt('Rows');
 //  let columns = +prompt('Columns');
 
@@ -25,22 +46,6 @@
 //     rectangle += row + '\n';
 //  } 
 //  console.log(rectangle);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -71,36 +76,36 @@
 //  *    2. all other rows in between are always 'empty'
 //  */
 
-// let rows = 4;
-// let columns = 6;
+let rows = 4;
+let columns = 6;
 
-// //begin TOP ROW
-// let topRow ='';
-// for (let j = 0, j < columns; j++) {
-//     topRow += '*';
-// }
-// topRow += '\n';
-// //end TOP ROW
+//begin TOP ROW
+let topRow ='';
+for (let j = 0, j < columns; j++) {
+    topRow += '*';
+}
+topRow += '\n';
+//end TOP ROW
 
-// //begin EMPTY ROWS
-// let emptyRows = '';
-// for (let i = 0; i < rows; i++){
-//     let emptyRow = '    ';
-//     emptyRow += '*' + emptyRow'*    *\n';
-// }
-// //end EMPTY ROWS
+//begin EMPTY ROWS
+let emptyRows = '';
+for (let i = 0; i < rows; i++){
+    let emptyRow = '    ';
+    emptyRow += '*' + emptyRow'*    *\n';
+}
+//end EMPTY ROWS
 
 
-// //begin BOTTOm ROW
-// let bottomRow ='';
-// for (let j = 0, j < columns; j++) {
-//     bottomRow += '*';
-// }
-// bottomRow += '\n';
-// //end BOTTOm ROW
+//begin BOTTOm ROW
+let bottomRow ='';
+for (j = 0, j < columns; j++) {
+    bottomRow += '*';
+}
+bottomRow += '\n';
+//end BOTTOm ROW
 
-// let emptyRectangle = topRow + bottomRow;
-// console.log(emptyRectangle);
+let emptyRectangle = topRow + bottomRow;
+console.log(emptyRectangle);
 
 
 

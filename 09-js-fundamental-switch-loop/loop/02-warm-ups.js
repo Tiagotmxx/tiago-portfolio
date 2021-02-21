@@ -2,7 +2,15 @@
  * Print all numbers from 0 to 10 (excluded).
  * Try with a while loop, then with a for loop.
  */
+let i = 0;
+while (i <= 10) {
+    console.log(i)
+    i++;
+}
 
+for (let i = 0; i <= 10; ++i) {
+    console.log(i);
+}
 /**
  * Print all numbers from 10 to 0 (excluded), reversed.
  * Try with a for loop, then with a while loop.
@@ -20,7 +28,7 @@ while (i > 0) {
  * Print even numbers from 0 to 10 (excluded) with a for loop.
  * There are at least 3 possible solutions, can you find them all?
  */
-
+for (let i = 0; )
 /**
  * Guess the number: Prompt the user for a number until it equals the secret number or it's a falsy value
  * 

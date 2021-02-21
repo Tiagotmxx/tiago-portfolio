@@ -12,3 +12,17 @@
  * Prime numbers: 2 3 x 5 x 7 x x x 
  */
 
+let maxNum = +prompt('Give a number to know the number primes above', 10);
+
+for (let number = 2; number < maxNum; number++) {
+    let isPrime = true;
+    
+    for (let previous = 2; previous < number; previous++) {
+        if (number % previous === 0) {
+            isPrime = false;
+        }
+    }
+    if (isPrime) {
+        console.log(number);
+    }
+}
