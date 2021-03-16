@@ -1,0 +1,23 @@
+{
+  "name": "tiago-portfolio",
+  "version": "0.1.0",
+  "description": "Portfolio project created during the Inglorious Academy 2020-2021.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tiagotmxx/tiago-portfolio.git"
+  },
+  "author": "Tiago Silvério Machado <machado.tiago.1993@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tiagotmxx/tiago-portfolio/issues"
+  },
+  "homepage": "https://github.com/Tiagotmxx/tiago-portfolio#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.20.0"
+  }
+}
