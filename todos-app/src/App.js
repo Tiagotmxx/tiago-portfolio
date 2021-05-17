@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
 
-function App() {
+import classes from "./App.module.css";
+
+export default function App() {
+  const [todos, setTodos] = useState([
+    { id: 1, text: "Learn React", done: true },
+    { id: 2, text: "Seek a job", done: false },
+    { id: 3, text: "Forget everything" },
+  ]);
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    setTodos([...todos, { id: 4, text: "Go to sleep", done: false }]);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <form onSubmit={handleSubmit}>
+        <input placeholder="What next?" />
+        <button>Submit</button>
+      </form>
+      <ul>
+        {todos.map(({ id, text, done }) => (
+          <li key={id} className={done ? classes.done : null}>
+            {text}
+          </li>
+        ))}
+      </ul>
+    </>
   );
 }
-
-export default App;
