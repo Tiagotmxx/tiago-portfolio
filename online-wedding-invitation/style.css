@@ -96,3 +96,20 @@ header {
   height: 70px;
   padding-left: 130px;
 }
+
+/* @media only screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  #leftcolumn {
+    width: 100%;
+  }
+  .background {
+    width: 100%;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+} */

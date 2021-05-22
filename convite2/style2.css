@@ -1,0 +1,122 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+@font-face {
+  font-family: Coneria;
+  src: url(./Demo_ConeriaScript.ttf);
+}
+
+#foto-noivos {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url(./our-picture2.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#nomes {
+  /* background-color: red; */
+  width: 100%;
+  height: 300px;
+  font-family: Coneria;
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+#nomes p {
+  margin: 0;
+  position: relative;
+  top: 85%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  font-weight: 600;
+}
+
+#convite {
+  background-color: rgb(255, 255, 243);
+  opacity: 0.8;
+  width: 100%;
+  height: fit-content;
+  font-family: Coneria;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+}
+
+#convite p {
+  margin: 0;
+  /* position: absolute; */
+  /* top: 78%;
+  left: 50%; */
+  /* -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  width: fit-content;
+  line-height: 1.5;
+  /* font-weight: 600; */
+  text-align: center;
+}
+
+#flowers {
+  height: 92px;
+  width: 180px;
+  /* top: 0px;
+  left: 0px; */
+  /* position: relative; */
+  /* float: left; */
+}
+
+#in-flowers {
+  height: 92px;
+  width: 180px;
+  margin-left: auto;
+}
+
+#confirmar {
+  margin-top: auto;
+  flex: 1;
+  margin-left: 10px;
+}
+
+#locais {
+  /* background-color: orange; */
+  width: 100%;
+  height: 300px;
+  font-family: Coneria;
+  font-size: 1.1rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#locais p {
+  margin: 0;
+  position: relative;
+  top: 15%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  line-height: 1.5;
+  /* font-weight: 600; */
+}
+
+/* b {
+  font-weight: 600;
+} */
+
+#rings {
+  height: 20%;
+  position: relative;
+  margin-top: 10px;
+}
+
+#countdown {
+  text-align: center;
+  font-family: Coneria;
+  /* height: 150px; */
+}

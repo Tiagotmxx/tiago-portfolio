@@ -12,7 +12,9 @@ export default function App() {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    setTodos([...todos, { id: 4, text: "Go to sleep", done: false }]);
+    const maxId = todos.lenght ? todos[todos.length - 1].id : 0;
+
+    setTodos([...todos, { id: maxId + 1, text: "Go to sleep", done: false }]);
   };
 
   return (
