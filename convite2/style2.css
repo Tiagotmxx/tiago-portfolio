@@ -120,3 +120,34 @@
   font-family: Coneria;
   /* height: 150px; */
 }
+
+a:link {
+  color: #743c02;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #743c02;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) {
+  #convite {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #flowers {
+    align-self: flex-start;
+  }
+  #in-flowers {
+    align-self: flex-end;
+  }
+}
