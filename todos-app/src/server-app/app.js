@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import List from "./list";
 import Form from "./form";
@@ -6,7 +6,11 @@ import Form from "./form";
 export default function App() {
   const [todos, setTodos] = useState([]);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    fetch("http://localhost:3000/todos")
+      .then((response) => response.json())
+      .then((body) => setTodos(body));
+  }, []);
 
   const handleSubmit = (text) => {
     const maxId = todos.length === 0 ? 0 : todos[todos.length - 1].id;
